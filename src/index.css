@@ -1,0 +1,148 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* BACKGROUND */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+}
+
+/* CARD */
+.container {
+  max-width: 900px;
+  margin: 70px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.4);
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #d4af37;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* INPUT */
+.input-box {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  font-size: 15px;
+}
+
+.input-box input:focus {
+  outline: none;
+  border-color: #d4af37;
+}
+
+.input-box button {
+  padding: 14px 22px;
+  background: #d4af37;
+  color: #111827;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.input-box button:hover {
+  background: #b8962e;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #fafafa;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  color: #6b7280;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+tbody tr:hover {
+  background: #fafafa;
+}
+
+/* TASK */
+.done {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+/* ACTION */
+td:last-child {
+  display: flex;
+  gap: 10px;
+}
+
+/* COMPLETE BUTTON */
+.check {
+  background: #111827;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.check:hover {
+  background: #d4af37;
+  color: #111827;
+}
+
+/* DELETE BUTTON */
+.delete {
+  background: transparent;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.delete:hover {
+  background: #111827;
+  color: #ffffff;
+  border-color: #111827;
+}
