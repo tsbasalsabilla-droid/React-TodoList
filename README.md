@@ -81,14 +81,19 @@ http://localhost:5173
 
 ---
 
-## Alur Aplikasi
-- Todo disimpan menggunakan state React (`useState`)
-- Data todo ditampilkan dalam bentuk tabel
-- Pengguna dapat:
-  - Menambahkan todo melalui form input
-  - Menandai todo sebagai selesai dengan tombol centang (✔)
-  - Menghapus todo dengan tombol silang (✕)
-- Data tidak disimpan ke database atau localStorage, sehingga akan ter-reset saat halaman di-refresh
+## Alur Penggunaan Aplikasi
+
+1. Pengguna membuka aplikasi React Todo App melalui browser.
+2. Aplikasi menampilkan halaman utama yang berisi:
+   - Judul aplikasi
+   - Form input untuk menambahkan todo
+   - Tabel daftar todo
+3. Pengguna memasukkan teks tugas pada kolom input **Tambah todo**.
+4. Pengguna menekan tombol **Tambah** untuk menambahkan todo ke dalam daftar.
+5. Todo yang ditambahkan akan muncul pada tabel dengan status **Todo**.
+6. Pengguna dapat menandai todo sebagai selesai dengan menekan tombol **centang (✔)**.
+7. Todo yang telah selesai akan berubah status menjadi **Selesai** dan teks akan dicoret.
+8. Pengguna dapat menghapus todo dengan menekan tombol **silang (✕)**.
 
 ---
 
