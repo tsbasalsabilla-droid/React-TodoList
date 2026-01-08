@@ -1,13 +1,15 @@
+
+
 ---
 
-# React Todo App 📝
+# React Todo App 
 
 React Todo App adalah aplikasi Todo List sederhana yang dibuat menggunakan **React Functional Component dan Hooks**.
 Aplikasi ini memiliki tampilan **elegan dengan tema Black & Gold** serta mendukung penyimpanan data menggunakan **localStorage**, sehingga data todo tidak hilang saat halaman di-refresh.
 
 ---
 
-## 🚀 Fitur Aplikasi
+## Fitur Aplikasi
 
 * Menampilkan daftar todo
 * Menambahkan todo baru
@@ -18,7 +20,7 @@ Aplikasi ini memiliki tampilan **elegan dengan tema Black & Gold** serta menduku
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 * React (Functional Component)
 * React Hooks (`useState`, `useEffect`)
@@ -28,7 +30,7 @@ Aplikasi ini memiliki tampilan **elegan dengan tema Black & Gold** serta menduku
 
 ---
 
-## 📂 Struktur Folder
+## Struktur Folder
 
 ```
 react-todo-app/
@@ -43,12 +45,12 @@ react-todo-app/
 
 ---
 
-## ⚙️ Cara Menjalankan Project
+## Cara Menjalankan Project
 
 1. Clone repository:
 
 ```
-git clone https://github.com/username/react-todo-app.git
+git clone https://github.com/tsbasalsabilla-droid/React-TodoList
 ```
 
 2. Masuk ke folder project:
@@ -77,7 +79,7 @@ http://localhost:5173
 
 ---
 
-## 🔄 Alur Aplikasi
+## Alur Aplikasi
 
 * Todo disimpan menggunakan state React (`useState`)
 * Saat aplikasi pertama kali dijalankan, data diambil dari `localStorage`
@@ -86,9 +88,9 @@ http://localhost:5173
 
 ---
 
-## 👤 Author
+## Author
 
-**Salsabilla**
+**Bilqis Tsabitah Salsabilla**
 Siswi **SMK Negeri 4 Malang**
 Jurusan **Rekayasa Perangkat Lunak (RPL)**
 
