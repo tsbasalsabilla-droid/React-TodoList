@@ -1,40 +1,11 @@
-function TodoRow({ todo, todos, setTodos }) {
-  const markDone = () => {
-    setTodos(
-      todos.map((item) =>
-        item.id === todo.id
-          ? { ...item, completed: true }
-          : item
-      )
-    );
-  };
-
-  const deleteTodo = () => {
-    setTodos(todos.filter((item) => item.id !== todo.id));
-  };
-
+function TodoRow({ todo, toggleTodo, deleteTodo }) {
   return (
-    <tr>
-      {/* KOLOM TASK */}
-      <td>{todo.task}</td>
-
-      {/* KOLOM STATUS */}
-      <td>
-        {todo.completed ? (
-          <span className="status done">Completed</span>
-        ) : (
-          <span className="status pending">Pending</span>
-        )}
-      </td>
-
-      {/* KOLOM ACTION */}
-      <td className="actions">
-        {!todo.completed && (
-          <button className="check" onClick={markDone}>✔</button>
-        )}
-        <button className="delete" onClick={deleteTodo}>✖</button>
-      </td>
-    </tr>
+    <li className={`todo-item ${todo.completed ? "done" : ""}`}>
+      <span onClick={() => toggleTodo(todo.id)}>
+        {todo.title}
+      </span>
+      <button onClick={() => deleteTodo(todo.id)}>✖</button>
+    </li>
   );
 }
 
