@@ -44,7 +44,7 @@ react-todo-app/
 
 ---
 
-## ⚙️ Cara Menjalankan Project
+## Cara Menjalankan Project
 1. Clone repository:
 ```
 
